@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniMenes", "UniMenes\UniMen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TojasGyar", "TojasGyar\TojasGyar.csproj", "{06FC1FCC-C87B-4A48-8219-8D704D7DEE28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utazasi_Iroda", "Utazasi_Iroda\Utazasi_Iroda.csproj", "{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{06FC1FCC-C87B-4A48-8219-8D704D7DEE28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06FC1FCC-C87B-4A48-8219-8D704D7DEE28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06FC1FCC-C87B-4A48-8219-8D704D7DEE28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
