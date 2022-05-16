@@ -1,0 +1,28 @@
+***CREATE DATABASE Zoldseges_Gyak;
+***USE Zoldseges_Gyak;
+
+CREATE TABLE Zoldseg(
+Id INT PRIMARY KEY IDENTITY,
+Nev VARCHAR(50),
+EgysegAr INT);
+
+CREATE TABLE Eladas(
+Id INT PRIMARY KEY IDENTITY,
+Datum DATE,
+Zoldseg INT FOREIGN KEY REFERENCES Zoldseg(Id),
+Mennyiseg INT);
+
+INSERT INTO Zoldseg VALUES
+('eper', 2600),
+('bab', 1000),
+('dinnye', 120),
+('cékla', 250);
+
+INSERT INTO Eladas VALUES
+('2019-12-20', 1, 1),
+('2019-12-21', 2, 3),
+('2019-12-23', 2, 6),
+('2019-12-23', 2, 4),
+('2020-01-05', 3, 7),
+('2020-01-05', 4, 2),
+('2020-01-06', 4, 4);

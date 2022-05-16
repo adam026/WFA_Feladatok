@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}</ProjectGuid>
+    <ProjectGuid>{98220BE9-741A-4427-A38C-901E403DFA25}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Utazasi_Iroda</RootNamespace>
-    <AssemblyName>Utazasi_Iroda</AssemblyName>
+    <RootNamespace>Zoldseges</RootNamespace>
+    <AssemblyName>Zoldseges</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,34 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmMain.cs">
+    <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUtas.cs">
+    <Compile Include="FrmUjEladas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUtas.Designer.cs">
-      <DependentUpon>frmUtas.cs</DependentUpon>
+    <Compile Include="FrmUjEladas.Designer.cs">
+      <DependentUpon>FrmUjEladas.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUtasLista.cs">
+    <Compile Include="FrmUjTermek.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUtasLista.Designer.cs">
-      <DependentUpon>frmUtasLista.cs</DependentUpon>
+    <Compile Include="FrmUjTermek.Designer.cs">
+      <DependentUpon>FrmUjTermek.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUtas.resx">
-      <DependentUpon>frmUtas.cs</DependentUpon>
+    <EmbeddedResource Include="FrmUjEladas.resx">
+      <DependentUpon>FrmUjEladas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUtasLista.resx">
-      <DependentUpon>frmUtasLista.cs</DependentUpon>
+    <EmbeddedResource Include="FrmUjTermek.resx">
+      <DependentUpon>FrmUjTermek.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,49 +94,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\01 Feladat14sz.pdf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\csharp_01.pdf" />
     <None Include="Resources\DBCreator.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ment.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\szallas.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\tura.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ures.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\utas.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\utas.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\utvonal.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\delete.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\idegenvezeto.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\keres.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TojasGyar", "TojasGyar\Toja
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utazasi_Iroda", "Utazasi_Iroda\Utazasi_Iroda.csproj", "{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoldseges", "Zoldseges\Zoldseges.csproj", "{98220BE9-741A-4427-A38C-901E403DFA25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01AEE3DA-F7F9-4081-9BDF-7451EC73B223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98220BE9-741A-4427-A38C-901E403DFA25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98220BE9-741A-4427-A38C-901E403DFA25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98220BE9-741A-4427-A38C-901E403DFA25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98220BE9-741A-4427-A38C-901E403DFA25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
